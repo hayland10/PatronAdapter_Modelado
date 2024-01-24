@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PatronAdapter.Views.MotoresView"
+             Title="Motores">
+    <VerticalStackLayout Spacing="10">
+        
+        <Label 
+            Text="Motor Disel"  FontSize="20" TextColor="DarkGreen"
+             />
+        <Button Text="ver acciones" Clicked="disel_Clicked"/>
+        <Label 
+            Text="Motor Super"  FontSize="20" TextColor="DarkOrange"
+            />
+        <Button Text="ver acciones" Clicked="super_Clicked"/>
+        <Label 
+            Text="Motor Electrico"  FontSize="20" TextColor="DarkRed"
+            />
+        <Button Text="ver acciones" Clicked="electric_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
